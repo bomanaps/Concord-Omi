@@ -1,0 +1,17 @@
+{
+    "id": "concord-channel-finder",
+    "name": "Concord Channel Finder",
+    "author": "Concord Team",
+    "description": "Finds relevant Concord channels based on conversation topics using BERT embeddings",
+    "image": "/apps/logos/concord-logo.jpg",
+    "capabilities": [
+      "external_integration"
+    ],
+    "external_integration": {
+      "triggers_on": "memory_creation",
+      "webhook_url": "https://deployment-url.com/process-memory",
+      "setup_completed_url": "https://deployment-url.com/setup-complete",
+      "setup_instructions_file_path": "/apps/instructions/concord-channel-finder/README.md"
+    },
+    "deleted": false
+  }
